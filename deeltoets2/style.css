@@ -1,0 +1,188 @@
+/* algemeen */
+
+html{
+	background: -webkit-linear-gradient(#edf4f1, #caefe2); 
+	background: -o-linear-gradient(#edf4f1, #caefe2); 
+	background: -moz-linear-gradient(#edf4f1, #caefe2);
+	background: linear-gradient(#edf4f1, #caefe2);
+}
+body{
+	font-family: 'Quicksand', sans-serif;
+	margin: 20px auto;
+	width: 85%;
+	line-height: 1.5em;
+	font-size: 1.3em;
+}
+h1{
+	color: #fff;
+	font-size: 300%;
+	text-shadow: 3px 3px 0px #2c7884;
+}
+h2, h3, h4{
+	color: #0d565e;
+}
+h2{
+	background: #fff;
+	padding: 2px 2px 2px 5px;
+}
+nav ul{
+	list-style-type: none;
+	float: right;
+}
+nav ul li{
+	display: inline;
+}
+nav a{
+	background: #FFF;
+	padding: 5px 5px 5px 5px;
+	transition: background 1s, color 1s 2s;
+	opacity: 0.4;
+}
+nav a:hover{
+	background: #e67e22;
+	color: #fff;
+	opacity: 1;
+}
+ol li:first-child{
+	text-decoration: underline;
+}
+ol li + li{
+	font-style: italic;
+}
+a, a:visited {
+	color: #e67e22;
+	text-decoration: none;
+}
+p a:hover, ol li a:hover{
+	color: #698751;
+	text-decoration: underline;
+	transition: .3s;
+}
+section{
+	text-align: justify;
+}
+article > section:nth-child(2) {
+	float: left;
+	width: 48%;
+}
+article > section:nth-child(3) {
+	float: right;
+	width: 48%;
+}
+article > section:nth-child(4) {
+	float: right;
+	width: 48%;
+	margin-bottom: 40px;
+}
+article > section:nth-child(5) {
+	clear:both;
+	background: #fff;
+	padding: 1px 20px 20px 20px;
+	margin-bottom: 60px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 0px #c6c6c6;
+}
+p:first-letter{
+	color: #e67e22;
+	margin-right: 3px;
+	font-size: 3em;
+	font-family: 'Londrina Shadow', cursive;
+}
+p:nth-of-type(2n+0){
+	color: #bdc3c7;
+	font-style: italic;
+	background: #fff;
+	padding: 10px 10px;
+}
+/* Video + plaatje*/
+video{
+	width: 100%;
+	transition: 1s;
+}
+video:hover{
+	width: 209%;
+}
+img{
+	width: 600px;
+	margin-top: 40px;
+	float: right;
+}
+/* formulier */
+
+fieldset {
+	border: none;
+	margin-top: 15px;
+	padding: 50px 20px 20px 20px;
+	background: #fff;
+	position: relative;
+}
+fieldset legend {
+	margin-top: 10px;
+	position: absolute;
+	top: 5px;
+	background: #2c7884;
+	padding: 1px 5px 1px 5px;
+	color: #fff;
+}
+fieldset label {
+	width: 50%;
+	float: left;
+	text-align: left;
+	margin-right: 25px;
+}
+input[type="text"], input[type="date"], input[type="email"], select,{
+	width: 40%;
+	float: left;
+	height: 30px;
+	display:block;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: inset 1px 1px 1px 1px #cccbcb;
+	margin-bottom:10px;
+}
+input[type="radio"], select{
+	width: 40%;
+	float: left;
+	display:block;
+	margin-bottom:10px;
+}
+input[type="submit"] {
+	display: block;
+	background: #34495e;
+	color: #fff;
+	border: none;
+	margin-top: 15px;
+	margin-bottom: 60px;
+	padding: 5px;
+	font-size: 1em;
+	font-family: 'Quicksand', sans-serif;
+	display:block;
+    width: 126px;
+    height: 180px;
+    -webkit-border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+	-moz-border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+    border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+    transition: background .3s;
+}
+input[type="submit"]:hover {
+	background: #e67e22;
+	width: 126px;
+    height: 180px;
+}
+input[type="text"]:focus, textarea:focus, input[type="email"]:focus, input[type="date"]:focus{
+	outline: none;
+	border: 1px solid #e67e22;
+	box-shadow: 2px 2px 0px #e67e22
+}
+fieldset label:after{
+	content: "*";
+	color: #e67e22;
+}
+::selection{
+	color: #fff;
+	background: #e67e22;
+}
