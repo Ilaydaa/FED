@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Deeltoets 1</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand|Londrina+Shadow' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Opleiding</a></li>
+            <li><a href="aanmelden.html">Aanmelden</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Aanmelden</h1>
+        <section>
+            <p>Bent u ge&iuml;nteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+            <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
+
+            <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="http://intra.iam.hva.nl/content/wie-wat-waar/" title="contact" target="_blank">contact</a> met ons opnemen.</p>
+        </section>
+
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Contactgegevens:</legend>
+                    <label for="naam">Naam</label><input id="naam" type="text" name="naam">
+                    <label for="bedrijf">Bedrijf</label><input id="bedrijf" type="text" name="bedrijf">
+                    <label for="adres">Adres</label><input id="adres" type="text" name="adres" placeholder="straat en huisnummer">
+                    <label for="postcode">Postcode</label><input id="postcode" type="text" name="postcode" placeholder="1234AB">
+                    <label for="plaats">Plaats</label><input id="plaats" type="text" name="plaats">
+                    <label for="telefoon">Telefoon</label><input id="telefoon" type="text" name="telefoon">
+                    <label for="email">Email</label><input id="email" type="email" name="email">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Ik wil mij aanmelden:</legend> 
+                    <label for="voorproject">Voor een project</label><input id="voorproject" type="radio" name="voor" value="project">
+                    <label for="voorstage">Als stage bedrijf</label><input id="voorstage" type="radio" name="voor" value="stagebedrijf">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Project:</legend>
+                    <label for="titel">Titel</label><input id="titel" type="text" name="titel">
+                    <label for="opdracht">Opdrachtomschrijving</label><textarea id="opdracht" name="opdracht"></textarea>
+                    <label for="doelgroep">Doelgroepomschrijving</label><textarea id="doelgroep" name="doelgroep"></textarea>
+                    <label for="doelstelling">Doelstelling/intentie van het project</label><textarea id="doelstelling" name="doelstelling"></textarea>
+                    <label for="van">Looptijd van</label><input id="van" type="date" name="looptijd van">
+                    <label for="tot">tot</label><input id="tot" type="date" name="looptijd tot">
+                    <label for="deadline">Deadline</label><input id="deadline" type="date" name="deadline">
+                    <label>Geschikt voor:</label>
+                        <select id ="geschikt">
+                            <option value = "1">Eerstejaars studenten</option>
+                            <option value = "2">Tweedejaars studenten</option>
+                            <option value = "3">Derdejaars studenten</option>
+                            <option value = "4">Afstudeer studenten</option>
+                            <option value = "5">Onbekend</option>
+                        </select>
+                    <label for="opmerking">Opmerking</label> <textarea id="opmerking" name="opmerking"></textarea>
+                </fieldset> 
+            
+                <fieldset>
+                    <legend>Stagebedrijf:</legend>
+                    <label for="naam1">Naam bedrijf</label><input id="naam1" type="text" name="naam bedrijf">
+                    <label for="adres1">Adres</label><input id="adres1" type="text" name="adres stage" placeholder="straat en huisnummer">
+                    <label for="postcode1">Postcode</label><input id="postcode1" type="text" name="postcode stage" placeholder="1234AB">
+                    <label for="plaats1">Plaats</label><input id="plaats1" type="text" name="plaats stage">
+                    <label for="sector">Sector</label><input id="sector" type="text" name="sector stage">
+                    <label for="core">Core business</label><input id="core" type="text" name="core stage">                                
+                    <label>Geschikt voor:</label>
+                        <select id="geschiktstage">
+                            <option value = "1">Tweedejaars studenten</option>
+                            <option value = "2">Afstudeer studenten</option>
+                            <option value = "3">Onbekend</option>
+                        </select>
+                    <label>Hoe lang is de stage?</label>
+                    <label for="10weken">10 weken</label><input id="10weken" type="radio" name="weken" value="weken">
+                    <label for="20weken">20 weken</label><input id="20weken" type="radio" name="weken" value="weken">
+                    <label for="begin">Begindatum</label><input id="begin" type="date" name="begin">                              
+                    <label for="werkzaamheden">Beschrijving stagewerkzaamheden</label> <textarea id="werkzaamheden" name="werkzaamheden"></textarea>
+                    <label for="opmerkingstage">Opmerking</label> <textarea id="opmerkingstage" name="opmerkingstage"></textarea>
+                </fieldset>
+                <input type="submit" name="aanmelden" value="Aanmelden">
+            </form>
+        </section>
+    </article>
+    <footer>
+        <p>Ilayda Kucukosmanoglu 2014 Copyright<p>
+    </footer>
+</body>
+</html>
